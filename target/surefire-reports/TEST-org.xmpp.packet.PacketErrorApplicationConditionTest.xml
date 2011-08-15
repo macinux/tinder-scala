@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0.004" errors="0" skipped="0" tests="4" name="org.xmpp.packet.PacketErrorApplicationConditionTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries"/>
+    <property name="java.vm.version" value="20.1-b02-383"/>
+    <property name="awt.nativeDoubleBuffering" value="true"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="mrj.build" value="11A511"/>
+    <property name="java.vm.vendor" value="Apple Inc."/>
+    <property name="java.vendor.url" value="http://www.apple.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/shaofeng/if/tinder-1.2.2"/>
+    <property name="java.runtime.version" value="1.6.0_26-b03-383-11A511"/>
+    <property name="java.awt.graphicsenv" value="apple.awt.CGraphicsEnvironment"/>
+    <property name="basedir" value="/Users/shaofeng/if/tinder-1.2.2"/>
+    <property name="java.endorsed.dirs" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="surefire.real.class.path" value="/Users/shaofeng/if/tinder-1.2.2/target/surefire/surefirebooter3548795291339174051.jar"/>
+    <property name="java.io.tmpdir" value="/var/folders/x2/gvvby0q12nbds4ql0qrrmlgc0000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.jnu.encoding" value="MacRoman"/>
+    <property name="java.library.path" value="/usr/local/mysql/lib::.:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="surefire.test.class.path" value="/Users/shaofeng/if/tinder-1.2.2/target/test-classes:/Users/shaofeng/if/tinder-1.2.2/target/classes:/Users/shaofeng/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/shaofeng/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/Users/shaofeng/.m2/repository/junit/junit/4.6/junit-4.6.jar:/Users/shaofeng/.m2/repository/junit-addons/junit-addons/1.4/junit-addons-1.4.jar:/Users/shaofeng/.m2/repository/xerces/xercesImpl/2.6.2/xercesImpl-2.6.2.jar:/Users/shaofeng/.m2/repository/xerces/xmlParserAPIs/2.6.2/xmlParserAPIs-2.6.2.jar:/Users/shaofeng/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/Users/shaofeng/.m2/repository/org/slf4j/slf4j-api/1.5.8/slf4j-api-1.5.8.jar:/Users/shaofeng/.m2/repository/org/slf4j/slf4j-simple/1.5.8/slf4j-simple-1.5.8.jar:/Users/shaofeng/.m2/repository/org/gnu/inet/libidn/1.15/libidn-1.15.jar:/Users/shaofeng/.m2/repository/com/googlecode/concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.0_jdk5/concurrentlinkedhashmap-lru-1.0_jdk5.jar:"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.7"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/shaofeng"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="apple.awt.CPrinterJob"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="file.encoding" value="MacRoman"/>
+    <property name="user.name" value="shaofeng"/>
+    <property name="java.class.path" value="/Users/shaofeng/if/tinder-1.2.2/target/test-classes:/Users/shaofeng/if/tinder-1.2.2/target/classes:/Users/shaofeng/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/shaofeng/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/Users/shaofeng/.m2/repository/junit/junit/4.6/junit-4.6.jar:/Users/shaofeng/.m2/repository/junit-addons/junit-addons/1.4/junit-addons-1.4.jar:/Users/shaofeng/.m2/repository/xerces/xercesImpl/2.6.2/xercesImpl-2.6.2.jar:/Users/shaofeng/.m2/repository/xerces/xmlParserAPIs/2.6.2/xmlParserAPIs-2.6.2.jar:/Users/shaofeng/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/Users/shaofeng/.m2/repository/org/slf4j/slf4j-api/1.5.8/slf4j-api-1.5.8.jar:/Users/shaofeng/.m2/repository/org/slf4j/slf4j-simple/1.5.8/slf4j-simple-1.5.8.jar:/Users/shaofeng/.m2/repository/org/gnu/inet/libidn/1.15/libidn-1.15.jar:/Users/shaofeng/.m2/repository/com/googlecode/concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.0_jdk5/concurrentlinkedhashmap-lru-1.0_jdk5.jar:"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home"/>
+    <property name="sun.java.command" value="/Users/shaofeng/if/tinder-1.2.2/target/surefire/surefirebooter3548795291339174051.jar /Users/shaofeng/if/tinder-1.2.2/target/surefire/surefire5088913782840751082tmp /Users/shaofeng/if/tinder-1.2.2/target/surefire/surefire8721341762773975392tmp"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="apple.awt.CToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.6.0_26"/>
+    <property name="java.ext.dirs" value="/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext"/>
+    <property name="sun.boot.class.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar"/>
+    <property name="java.vendor" value="Apple Inc."/>
+    <property name="localRepository" value="/Users/shaofeng/.m2/repository"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.apple.com/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="mrj.version" value="1070.1.6.0_26-383"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase time="0" classname="org.xmpp.packet.PacketErrorApplicationConditionTest" name="testValidBehaviorJustCondition"/>
+  <testcase time="0.001" classname="org.xmpp.packet.PacketErrorApplicationConditionTest" name="testValidBehaviorConditionAndNamespace"/>
+  <testcase time="0" classname="org.xmpp.packet.PacketErrorApplicationConditionTest" name="testValidBehaviorReset"/>
+  <testcase time="0" classname="org.xmpp.packet.PacketErrorApplicationConditionTest" name="testInvalidParameters"/>
+</testsuite>
