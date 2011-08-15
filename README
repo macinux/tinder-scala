@@ -1,4 +1,9 @@
-added  public DocumentFactory getDocFacInstance() {
+based on tinder1.2.2
+
+added
+----------------------------
+  public DocumentFactory getDocFacInstance() {
        return docFactory;	
    }
-in Packet.java for the scala class extending packet
+---------------------------
+in Packet.java for the scala class extending the packet class
